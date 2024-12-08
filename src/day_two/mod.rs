@@ -41,6 +41,8 @@ fn check_report(levels: &Vec<i32>, skip: Option<usize>) -> bool {
 }
 
 pub fn implementation() {
+    println!("Day 2");
+
     let input = fs::read_to_string("src/day_two/input").expect("Should read full input file");
 
     let reports = input.lines();

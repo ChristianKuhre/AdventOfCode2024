@@ -1,6 +1,8 @@
 use std::{cmp::Ordering, collections::HashSet, fs};
 
 pub fn implementation() {
+    println!("Day 5");
+
     let input = fs::read_to_string("src/day_five/input").expect("Should read full input file");
 
     let mut input_split = input.split("\n\n");

@@ -14,6 +14,8 @@ fn find_mul_and_calculate (text: &str) -> i32 {
 }
 
 pub fn implementation() {
+    println!("Day 3");
+
     let input = fs::read_to_string("src/day_three/input").expect("Should read full input file");
 
     let one_star = find_mul_and_calculate(input.as_str());

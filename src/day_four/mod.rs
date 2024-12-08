@@ -76,6 +76,8 @@ fn find_two_star_pattern (board: &Vec<&str>, x: i32, y: i32) -> bool {
 }
 
 pub fn implementation() {
+    println!("Day 4");
+
     let input = fs::read_to_string("src/day_four/input").expect("Should read full input file");
 
     let board: Vec<&str> = input.lines().collect();

@@ -1,6 +1,8 @@
 use std::fs;
 
 pub fn implementation() {
+    println!("Day 1");
+
     let input = fs::read_to_string("src/day_one/input").expect("Should read full input file");
 
     let lines: Vec<&str> =  input.lines().collect();
